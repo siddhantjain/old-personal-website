@@ -1,0 +1,85 @@
+﻿html,
+body {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    overflow: hidden
+}
+
+@font-face {
+    font-family: SourceSansProRegular;
+    src: url(fa/SourceSansPro-Regular.otf);
+    font-weight:400;
+}
+@font-face {
+    font-family: SourceSansProLight;
+    src: url(fa/SourceSansPro-Light.otf);
+    font-weight:100;
+}
+@font-face {
+    font-family: SourceSansProBold;
+    src: url(fa/SourceSansPro-Bold.otf);
+    font-weight:400;
+}
+.style_controlbar
+{
+  width : 100%;
+  height : 10%;
+  position: absolute;
+  top: 90%;
+  left: 0%;
+}
+
+.style_full_view_area
+{
+  width : 100%;
+  height : 100%;
+  position: absolute;
+}
+.style_video_view_area
+{
+  width : 100%;
+  height : 100%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+}
+
+.style_seekbar {
+  -webkit-appearance: none;
+  background-color: #333;
+  opacity: 1;
+  padding: 0px 0px 0px 0px;
+}
+.style_progressindicator{
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  background-color: #3caac8;
+	overflow: hidden;
+}
+
+.style_videotime {
+  position: absolute;
+  padding: 0px 0px 0px 0px;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-family:SourceSansProRegular;
+  font-size:10px;
+  font-weight:900;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.flipImg {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+
+
+
+
