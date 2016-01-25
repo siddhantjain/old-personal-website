@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://siddhantjain.github.io"
+url: "https://panossakkos.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -29,10 +29,10 @@ force-https: True
 #############
 
 lang: "en"
-author: "Siddhant Jain"
-title: "{ Siddhant Jain }"
-description: "Personal website of Siddhant Jain. Serves as a blog and a portfolio"
-keywords: "siddhant, jain"
+author: "John Smith"
+title: "{ John Smith }"
+description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
+keywords: "smith, jones, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 404-img: "/img/labtocat.png"
 
@@ -56,8 +56,8 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Hello! I am Siddhant."
-  - text: "Explore away!"
+  - text: "The lower you fall, the higher you'll fly."
+  - text: "Where’s your will to be weird?"
 
 me-img: "/img/jetpacktocat.png"
 
@@ -119,7 +119,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "post.siddhant@gmail.com"
+email: "your@email.here"
 
 ##################
 # Social Buttons #
