@@ -104,12 +104,21 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/adobe-logo.png"
+    date: "July 2015 - Today"
+    description: "Building eLearning products"
+  - image: "/img/timeline/emc-logo.png"
+    date: "Jan 2015 - July 2015"
+    description: "Explored cloud and storage domains"
+  - image: "/img/timeline/adobe-logo.png"
+    date: "May 2014 - July 2014"
+    description: "Researched Segmentation in Computer Vision"
+  - image: "/img/timeline/avanti-logo.jpg"
+    date: "May 2013 - July-2013"
+    description: "Experimented with new teaching pedagogies"
+  - image: "/img/timeline/bits-logo.png"
+    date: "August 2010 - June 2015"
+    description: "Studied Computer Science and Economics"
 
 # First image of the Timeline
 
@@ -131,9 +140,7 @@ social:
   - title: "twitter"
     url: "https://twitter.com/"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/siddhantjain"
   - title: "rss"
     url: "/feed.xml"
 
