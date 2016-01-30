@@ -151,6 +151,7 @@ a {
     padding: 100px 0;
     text-align: center;
     color: $intro-text-color;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     {% if site.background-img %}
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
@@ -168,7 +169,7 @@ a {
         .intro-text {
             font-size: 18px;
             @if $navbar-text-shadow {
-                text-shadow: 1px 0 2px #000000;
+                text-shadow: 1px 0 1px #ffffff;
             }
         }
     }
