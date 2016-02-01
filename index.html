@@ -1,75 +1,15 @@
----
-layout: default
-title: Mainpage
----
-<!-- Content
-    ================================================== -->
-  <div class="top-strip"></div>
-  <div class="content">
-    <main class="container">
-    	<div class="row-fluid">
-    		<section class="content">
-    		  <h1>Ipsum List</h1>
-    		</section>
-    		<ul class="entries">
-    		{% for post in paginator.posts %}
-    		  <li>
-    		    <a href="{{ post.url }}">
-                      <span>{{ post.date | date: "%d %B %Y" }}</span>
-    		        <h3>{{ post.title }}</h3>
-                      <div>{{ post.content |truncatehtml | truncatewords: 30 }}</div>
-    		    </a>
-    		  </li>
-    		{% endfor %}
-    		</ul>
-    	</div>
-      <hr>
-      <div id="post-pagination">
-        {% if paginator.previous_page %}
-        <p class="prev">
-          {% if paginator.previous_page == 1 %}
-          <a href="/">Previous</a>
-          {% else %}
-          <a href="/page{{paginator.previous_page}}"> Previous</a>
-          {% endif %}
-        </p>
-        {% else %}
-<!--         <p class="prev disabled">
-          <span>Previous</span>
-        </p> -->
-        {% endif %}
 
-        <ul class="pages">
-          <li class="page">
-            {% if paginator.page == 1 %}
-<!--             <span class="current-page">1</span> -->
-            {% else %}
-            <a href="/">1</a>
-            {% endif %}
-          </li>
+<HEAD>
+<TITLE> Siddhant Jain </TITLE>
+</HEAD>
 
-          {% for count in (2..paginator.total_pages) %}
-          <li class="page">
-            {% if count == paginator.page %}
-            <span class="current-page">{{count}}</span>
-            {% else %}
-            <a href="/page{{count}}">{{count}}</a>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
+<BODY BGCOLOR="WHITE">
+<CENTER> 
+<H1> HELLO! </H1>
+<H4>I am working on this website. Meanwhile, consider one of the following options:</H4>
+</CENTER>
 
-        {% if paginator.next_page %}
-        <p class="next">
-          <a href="/page{{paginator.next_page}}">Next</a>
-        </p>
-        {% else %}
-<!--         <p class="next disabled">
-          <span>Next</span>
-        </p> -->
-        {% endif %}
-      </div>
-
-    </main>
-  </div>
+<H3> Mail me: post.siddhant@gmail.com
+<H3> Check out my <A HREF = "https://in.linkedin.com/in/siddhant-jain-0b614320"> LinkedIn </A> profile </H5>
+<H3> Check out my <A HREF = "https://github.com/siddhantjain"> GitHub </A> profile </H5>
 
