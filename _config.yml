@@ -2,7 +2,7 @@ name: Siddhant Jain
 bio: 'I build things.'
 picture: 'assets/images/profile.jpg'
 
-url: http://siddhantjain.github.io/indigo
+url: http://siddhantjain.github.io/
 permalink: /:title/
 
 #analytics: 'UA-MYANALYTICS'
