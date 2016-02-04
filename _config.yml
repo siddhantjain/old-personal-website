@@ -1,7 +1,28 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+name: Siddhant Jain
+bio: 'I build things.'
+picture: 'assets/images/profile.jpg'
 
-auto: true # automatically update your jekyll
-server: true # runs a local server
-paginate: 10 # pagination basted on number of posts
-exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
+url: http://siddhantjain.github.io/indigo
+permalink: /:title/
 
+#analytics: 'UA-MYANALYTICS'
+#disqus: mydisqus
+facebook: jainsiddhant
+twitter: sichinain
+linkedin: in/siddhant-jain-0b614320
+youtube: myyoutube
+github: siddhanjain
+email: post.siddhant@gmail.com
+
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
+
+gems:
+  - jemoji
+  - jekyll-mentions
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
