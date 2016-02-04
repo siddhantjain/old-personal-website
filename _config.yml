@@ -11,7 +11,7 @@ facebook: jainsiddhant
 twitter: sichinain
 linkedin: in/siddhant-jain-0b614320
 youtube: myyoutube
-github: siddhanjain
+github: siddhantjain
 email: post.siddhant@gmail.com
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
