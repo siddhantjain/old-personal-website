@@ -430,9 +430,10 @@ pre {
   width: 70%;
   margin: 0 auto 30px;
 }
-.home .home__header h2 a,
-.blog .home__header h2 a {
+.home .home__header h2 a, a:visited, a:hover, a:active
+.blog .home__header h2 a, a:visited, a:hover, a:active {
   font-weight: 200;
+  color: inherit;
 }
 .home .home__header .home__header-social,
 .blog .home__header .home__header-social {
