@@ -11,43 +11,17 @@ img { width: 50%; margin: 0 auto; display: block; }
 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<center>
+<h2> Siddhant Jain </h2>
+<h3> Member of Technical Staff, Adobe Systems </h3>
+</center>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Hello. Thanks for visiting my page.</p>
 
-<h2>Skills</h2>
+<p> I am a <strike>software developer</strike> computer scientist who enjoys building things (on a computer). I try to use computer vision and machine learning while I am doing that because they tend to make the things I build more fun. 
+<p> Currently, I work at the eLearning group in Adobe, where I am building a video creation tool for making educational content. When I get bored of that, I experiment with Virtual Reality (apart from playing foosball). </p>
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+<p> From 2010 to 2015, I double-majored in Computer Science and Economics from <a href = "https://bits-pilani.ac.in">BITS Pilani</a>, India where I pursued my senior thesis under <a href = "http://universe.bits-pilani.ac.in/pilani/goel/profile">Prof. Navneet Goyal</a> on classification in scenarios with dynamic class structures. During undergraduation, I also served as the editor of <a href = "http://epc-bitspilani.com/"> The Fine Print </a>  - student newsletter of BITS.  </p>
 
-<h2>Projects</h2>
+<p> As an intern, I have worked for <a href ="www.emc.com"> EMC </a> and <a href = "www.avantifellows.org"> Avanti fellows </a> previously where I explored an intermittent interest in cloud technology and a long-standing affection for education, respectively.  </p>
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
