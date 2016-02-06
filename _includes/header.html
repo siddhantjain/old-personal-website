@@ -1,4 +1,4 @@
-{% if page.title == "Home" or page.title == "Blog" %}{% assign x = true %}{% endif %}
+{% if page.title == "Home" %}{% assign x = true %}{% endif %}
 
 {% if x == true %}
     <header class="home__header">
@@ -6,7 +6,6 @@
 
         <h1><a href = {{ site.url }}> {{ site.name }} </a> </h1>
         <h2>{{ site.bio }}</h2>
-
         <div class="home__header-social">
             <a href="http://facebook.com/{{ site.facebook }}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a>
             <a href="http://twitter.com/{{ site.twitter }}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a>
