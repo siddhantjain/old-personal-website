@@ -11,9 +11,9 @@ title: Blog
                 <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
                 <h3>{{ post.title }}</h3>
             </a>
-          {% endfor %}
         </div>
-        {% include pagination.html%}  
+        {% endfor %}
+    {% include pagination.html%}  
 </section>
 
 {% include footer.html %}
