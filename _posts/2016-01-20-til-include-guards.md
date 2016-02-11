@@ -15,7 +15,8 @@ So, basically, you would have divided your code in header files (.h) and the sou
 The error you might potentially run into is that of duplicate declarations. How?
 
 Like So:
-
+{% highlight C++ %}
+{%raw%}
 File1.h
 
 int A;
@@ -29,21 +30,25 @@ File3.cpp
 #include"File2.h"
 
 /..some code../
-
+{%endraw%}
+{% endhighlight %}
 Now when we do the expansion of the #include, it is clear to see that we will have multiple declarations of the variable A which will lead to a compilation error.
 
 Include guards are a good practice followed while programming to avoid such scenarios. Basically all you do is that ensure if a header file is already present in the file, it need not be expanded again.
 
 So, I will change my File1.h to add include guards like follows:
 
+{% highlight C++ %}
+{%raw%}
 #ifndef __FILE_1_H
 #define __FILE_1_H
 
 int A;
 
 #endif
-
+{%endraw%}
+{% endhighlight %}
 Now, as will be rightly noted, a second expansion of File1.h will not allow for a duplicate declaration of variable A as #ifndef will evaluate as false.
 
-This SO answer is better than my explanation, btw:
-http://stackoverflow.com/a/8020211/1910621
+[This](http://stackoverflow.com/a/8020211/1910621) SO answer is better than my explanation, btw:
+
