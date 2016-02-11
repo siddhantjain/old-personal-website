@@ -15,7 +15,7 @@ So, basically, you would have divided your code in header files (.h) and the sou
 The error you might potentially run into is that of duplicate declarations. How?
 
 Like So:
-{% highlight C++ %}
+{% highlight cpp %}
 {%raw%}
 File1.h
 
@@ -38,7 +38,7 @@ Include guards are a good practice followed while programming to avoid such scen
 
 So, I will change my File1.h to add include guards like follows:
 
-{% highlight C++ %}
+{% highlight cpp %}
 {%raw%}
 #ifndef __FILE_1_H
 #define __FILE_1_H
