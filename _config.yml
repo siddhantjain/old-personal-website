@@ -5,7 +5,7 @@ picture: 'assets/images/profile.jpg'
 url: http://siddhantjain.github.io/
 permalink: /:title/
 
-#analytics: 'UA-MYANALYTICS'
+analytics: 'UA-73836399-1'
 #disqus: mydisqus
 facebook: jainsiddhant
 twitter: sichinain
