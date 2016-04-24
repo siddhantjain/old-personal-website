@@ -1,0 +1,15 @@
+Going step by step towards not wasting time and writing down a list of things that can go towards my projects and the details for each
+
+
+1) KeyframeCut
+A background removal algorithm for videos that was developed as a part of the summer internship with the eLearning team at bangalore. Since we were starting from ground up, while developing this algorithm we surveyed a lot literature, understanding terms, rejecting approaches that might not work for us and then finaly coming up with a novel algorithm that solves our problem. We tried to fuse different cues to help us segment each frame. Hence in our algorithm we incorporated GMMs for colour based training, frame differencing for motion cues and lastly, face and body detectors for shape based cues. Some sample videos of the results we achieved can be found here: <Put YouTube links>
+
+
+2) Magic Green Screen
+An extension of the work done during summer internship, Magic Green Screen was the marquee feature for PVX 11. Over the course of year it has received some great reviews from Customers for its ease of use. Specfically, I worked on the matting and despilling algorithms along with an algorithm for visualisations to provide a preview feedback to the user. We have a patent pending on the matting algorithm we developed for this feature.
+
+3) VR Works
+
+Take from handout
+
+4) Space Apps
